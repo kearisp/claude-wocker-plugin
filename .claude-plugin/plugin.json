@@ -1,0 +1,12 @@
+{
+    "name": "wocker",
+    "description": "Skills for working with Wocker projects, e.g. driving the built-in browser via `ws browser:*`",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": {
+        "name": "Kris Papercut",
+        "email": "krispcut@gmail.com"
+    },
+    "homepage": "https://github.com/kearisp/claude-wocker-plugin",
+    "repository": "https://github.com/kearisp/claude-wocker-plugin"
+}
