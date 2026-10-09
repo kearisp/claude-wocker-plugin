@@ -1,0 +1,14 @@
+{
+    "name": "wocker",
+    "description": "Claude Code plugins for Wocker",
+    "owner": {
+        "name": "Kris Papercut"
+    },
+    "plugins": [
+        {
+            "name": "wocker",
+            "source": "./",
+            "description": "Skills for working with Wocker projects, e.g. driving the built-in browser via `ws browser:*`"
+        }
+    ]
+}
