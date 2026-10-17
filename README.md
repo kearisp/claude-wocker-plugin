@@ -22,6 +22,11 @@ Or from inside a session:
   `ws browser:screenshot`), including the `helper` API for project env, meta and secrets.
   Claude also picks it up automatically when you ask it to open, click or screenshot a page.
 
+- `/wocker:changelog` — generate release notes for any repository from Conventional Commits, grouped by
+  type (Breaking Changes, Features, Fixes, …). Submodule-aware: in a monorepo it works on a chosen submodule's
+  own history, tags and remote. Examples: `/wocker:changelog v1.3.0..v1.4.0`,
+  `/wocker:changelog packages/api v1.4.0 --write` (saves to the submodule's `CHANGELOG.md`).
+
 ## Updating
 
 Bump `version` in `.claude-plugin/plugin.json` on every release, otherwise users won't receive the update:
