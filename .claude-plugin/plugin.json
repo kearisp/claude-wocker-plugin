@@ -1,7 +1,7 @@
 {
     "name": "wocker",
     "description": "Skills for working with Wocker projects, e.g. driving the built-in browser via `ws browser:*`",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "author": {
         "name": "Kris Papercut",
